@@ -1,0 +1,143 @@
+
+/* Global styles */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(adrianna-geo-1rBg5YSi00c-unsplash.jpg);
+    background-color: #31596d;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */ 
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .text h2 {
+    width: 100%;
+    margin: 10 auto 0 auto;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  /* Japanese-themed styles */
+  header {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  main {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: black;
+  }
+  
+  section p {
+    color: #666;
+  }
+  
+  section ul li:before {
+    content: "•";
+    color: black;
+    margin-right: 10px;
+  }
+
+
+  
